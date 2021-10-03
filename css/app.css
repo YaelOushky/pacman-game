@@ -1,0 +1,50 @@
+body {
+  background-image: url(../img/photo-1624182496215-b87064f55c3e.jpg);
+  background-size: contain;
+  color:white;
+  text-align: center;
+  font-family:'Permanent Marker', cursive;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+table{
+margin: auto;
+}
+
+td{
+  background-color: rgba(238, 139, 136, 0.164);
+  font-family:cursive; 
+   border-radius: 5px; 
+}
+
+button{
+   font-family:cursive;
+  margin: auto;
+  display: none;
+  background-color: rgb(255, 255, 255);
+  border-style:hidden;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: larger;
+  margin-top: 10px;
+}
+
+.winner{
+  display: none;
+}
+.hide{
+  display: block;
+}
+.ghost{
+color: lemonchiffon;
+}
+.pacman{
+  height: 40px;
+  width: 32px;
+}
